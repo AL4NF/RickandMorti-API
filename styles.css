@@ -1,0 +1,65 @@
+.location {
+  font-family: fantasy;
+}
+
+.Planet {
+  font-weight: bold;
+}
+/* ------------------------------------------------------------------------ */
+
+.listCharacter
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.character
+{
+  box-shadow: 14px 11px 31px ;
+  border-radius: 50px;
+  display: inline-block;
+  width: 350px;
+  font-family: fantasy;
+  text-align: center;
+  background-color:#032751;
+  margin:20px;
+}
+.character:hover
+{
+  transform: translateY(-5px);
+
+}
+/* #0D3B66 */
+.characterName
+{
+  margin: 0;
+  font-style: italic;
+  color:#FFFFFF;
+}
+.characterImage
+{
+  border-radius: 150px;
+}
+/* EECF6D */
+.characterDead
+{
+  box-shadow: 14px 11px 31px ;
+  border-radius: 50px;
+  display: inline-block;
+  width: 350px;
+  font-family: fantasy;
+  text-align: center;
+  background-color:#5F021F;
+  margin:20px;
+}
+characterDead:hover
+{
+  transform: translateY(-5px);
+
+}
+h3
+{
+  font-size: 20px;
+  color:#C4C4C4;
+}
